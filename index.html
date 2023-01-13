@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/navBar.css">
+    <link rel="stylesheet" href="./src/css/modal.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+    <link rel="stylesheet" href="./src/css/thank_you_page.css">
+    <title>1Ecommerce</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <figure>
+            <img class="navbar__Logo" src="./public/assets/Logo.png" alt="Logo empresa">
+        </figure>
+        <ul class="itemContain">
+            <li class="item">
+                <a href="#pc">Laptop</a>
+            </li>
+
+            <li class="item">
+                <a href="#periferic">Perifericos</a>
+            </li>
+
+            <li class="item" id="shoppingCart">
+                <a href="#">Carrito</a>
+                <div class="list">
+                    <div class="listBuy">
+                        <div class="listItem">
+                            <img src="" alt="" class="list__img" />
+                            <div>
+                                <h1 class="list__title">Name Product</h1>
+                                <p class="list__price">$0,00</p>
+                            </div>
+                        </div>
+                        <div class="list__item">
+                            <img src="" alt="" class="list__img" />
+                            <div>
+                                <h1 class="list__title">Name Product</h1>
+                                <p class="list__price">$0,00</p>
+                            </div>
+                        </div>
+                        <div class="list__item">
+                            <img src="" alt="" class="list__img" />
+                            <div>
+                                <h1 class="list__title">Name Product</h1>
+                                <p class="list__price">$0,00</p>
+                            </div>
+                        </div>
+                        <div class="list__item">
+                            <img src="" alt="" class="list__img" />
+                            <div>
+                                <h1 class="list__title">Name Product</h1>
+                                <p class="list__price">$0,00</p>
+                            </div>
+                        </div>
+                        <div class="list__item">
+                            <img src="" alt="" class="list__img" />
+                            <div>
+                                <h1 class="list__title">Name Product</h1>
+                                <p class="list__price">$0,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list__buttons">
+                        <button class="list__compra">Comprar</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <div class="contain__text">
+            <h1 class="contain__title">Tecnology and Services</h1>
+            <p class="contain__subtitle">
+                Ventas y servicios a personalizado de Tecnologias.
+            </p>
+            <a href="#" class="contain__link">Ver Productos</a>
+        </div>
+    </header>
+
+
+    <main id="root"></main>
+
+
+    <!-- modal -->
+    <div id="modal" class="modal__fade">
+        <div class="modal">
+            <img id="closeModal" src="public/assets/iconClose.png" alt="" class="modal__iconClose" />
+            <div class="modal__img">
+                <img src="" alt="" class="modal__img--item" />
+            </div>
+            <div class="modal__info">
+                <h1 class="modal__title">Descripción</h1>
+                <div>
+                    <ul>
+                        <li>Text 1</li>
+                        <li>Text 2</li>
+                        <li>Text 3</li>
+                        <li>Text 4</li>
+                    </ul>
+                </div>
+                <div class="modal__buttons">
+                    <button type="button" class="modal__comprar">
+                        Comprar
+                    </button>
+                    <button type="button" class="modal__carrito">
+                        Carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="contain__footer">
+        <p class="containerFooter__Item"> Desarrollado por del año 2023 copyright © , Made wtih </p>
+    </footer>
+
+    <script src="src/js/main.js" type="module"></script>
+
+</body>
+
+</html>
