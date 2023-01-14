@@ -21,20 +21,23 @@
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    margin-left: 100px;
+    margin-left: 3rem;
+    width: 26rem;
+    /*margin: 0, 0, 400px, 20px;*/
 }
 
 .contain__title {
     font-size: 4rem;
     line-height: 5rem;
+    color: var(--color4);
 }
 
 .contain__subtitle {
-    width: 350px;
-    font-size: 20px;
-    font-weight: 100;
-    color: var(--white);
-    letter-spacing: 2rem;
+    /*width: 350px;*/
+    font-size: 25px;
+    /*font-weight: 100;*/
+    color: var(--color3);
+    letter-spacing: 5px;
     line-height: 5rem;
 }
 
@@ -49,12 +52,12 @@
     border-radius: 30px;
     color: var(--white);
     font-size: 1.36rem;
-    background: var(--lightBlue);
+    background: var(--color4);
 }
 
 .contain__link:hover {
-    background: #587eee;
-    box-shadow: 0 0 1rem #587eee;
+    background: var(--color5);
+    box-shadow: 0 0 1rem var(--color5);
 }
 
 /* end header */

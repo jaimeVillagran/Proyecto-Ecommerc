@@ -11,7 +11,6 @@ const cards = ({ Id, name, price, img }) => {
                     <button class="card__button">
                         <img src="public/assets/iconShop.png" alt="Icono" class="icon"/>
                     </button>
-                    <button class="more__info" onclick="showModal(event)">Ver más</button>
                 </div>
             </div>
         </div>
