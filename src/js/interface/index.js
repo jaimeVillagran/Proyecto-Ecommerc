@@ -6,7 +6,7 @@ import { ContProduct } from "../components/products.js";
 import { root } from "../nodes.js";
 
 // Import data products
-import { propsSections } from "../utils/data.js";
+import { propsSections } from "../utils/products.js";
 
 // This templates or complete interface load each component for a view depending the route
 const Home = () => {
