@@ -1,6 +1,7 @@
 const cards = ({ Id, name, price, img }) => {
 	return `
         <div class="card">
+            <input name="prod_id" type="hidden" value="${Id}"/> 
             <figure class="contain-Img">
                 <img id="test" src="./public/imageProducts/${img}" alt="" class="card__image"/>
             </figure>
